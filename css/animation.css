@@ -1,0 +1,153 @@
+.pulse {
+  animation: pulse 2s;
+}
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.header-lotus {
+  animation: fadeIn 1s, rotation 1s linear;
+  animation-fill-mode: forwards;
+}
+
+
+@-webkit-keyframes rotation {
+  from {
+      -webkit-transform: rotate(0deg);
+  }
+  to {
+      -webkit-transform: rotate(359deg);
+  }
+}
+
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(359deg);
+  }
+}
+
+@-webkit-keyframes shift {
+  from {
+    -webkit-transform: translate(0,100px);
+  }
+  to {
+    -webkit-transform: translate(0,0);
+  }
+}
+
+@keyframes shift {
+  from {
+    transform: translate(0,100px);
+  }
+  to {
+    transform: translate(0,0);
+  }
+}
+
+.header-text1 {
+  animation: 3s fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+    
+  }
+}
+
+.arrow-down {
+  animation: 4s fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+
+.header-text2 {
+  animation: 5s fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  /*text-decoration: none;*/
+  color: white;
+}
+
+.all-ingredients img {
+  animation: wave 2s infinite;
+}
+
+@keyframes wave {
+        0% {
+            transform:translateY(0px)
+        }
+        50% {
+            transform:translateY(-20px);
+        }
+        100% {
+            transform:translateY(0px)   
+        }
+    }
+    #butter {
+        animation-delay:0s;
+    }
+    #coconut {
+        animation-delay:.1s;    
+    }
+    #flour {
+        animation-delay:.2s;
+    }
+    #coloring {
+        animation-delay:.3s;    
+    }
+    #lard {
+        animation-delay:.4s;
+    }
+    #sugar {
+        animation-delay:.5s;    
+    }
+    #water {
+        animation-delay:.6s;
+    }
+    #yolk {
+        animation-delay:.7s;
+    }

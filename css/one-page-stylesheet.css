@@ -1,0 +1,161 @@
+@media only screen and (min-width: 992px) {
+	section {
+		height: 100vh;
+	}
+
+	.navbar-custom {
+		background-color: rgba(51,51,51,0.4);
+	}
+
+	header {
+		position: relative;
+	  	overflow: hidden;
+	  	height: 100vh;
+		background: -webkit-gradient(linear, left bottom, left top, from(#431B39), to(#F49E40));
+	 	background: linear-gradient(0deg, #431B39 0%, #F49E40 100%);
+		text-align: center;
+		color: white;
+		background-position: center center;
+		background-size: cover;
+	}
+
+
+
+	.header-content {
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+	}
+
+	.arrow-down {
+		height: 40px;
+		margin: 20px;
+	}
+
+
+	table tr th, table tr td{
+		width:16.6%;
+		height: auto;
+		padding: 0 10px 20px 10px;
+		vertical-align: top;
+		font-size: 2.5vh;
+	 }
+
+	.description-box {
+		display: inline-block;
+		float: right;
+		background-color: rgba(255,255,255,0.9);
+		height: 75vh;
+		width: auto;
+		margin: 0;
+		position: relative;
+		line-height: 200%;
+		padding: 0px;
+		transform: translate(0, 15%);
+	}
+
+	.clearfix::after {
+		content:"";
+		clear:both;
+		display:table;
+	}
+
+
+	 /* ingredient section*/
+	#section-ingredient {
+		background-image: url("../icons/IngredientTop.png");
+		background-repeat: no-repeat;
+		background-position: top;
+		background-size: contain;
+		background-color: #A3BAC6;
+	}
+
+	.ingredients {
+		padding: 0;
+		width: 90%;
+	}
+
+	.all-ingredients {
+		text-align: center;
+	}
+
+	#section-makeFilling {
+		background-image: url("../icons/makeFillingTop.png");
+		background-repeat: no-repeat;
+		background-position: top;
+		background-size: contain;
+		background-color: #4E4E63;
+	}
+
+	#section-makeWetDough {
+		background-image: url("../icons/makeWetDoughTop.png");
+		background-repeat: no-repeat;
+		background-position: top;
+		background-size: contain;
+		background-color: #2EAA8D;
+	}
+
+	#section-makeDryOilDough {
+		background-image: url("../icons/makeDryOilDoughTop.png");
+		background-repeat: no-repeat;
+		background-position: top;
+		background-size: contain;
+		background-color: #EAC892;
+	}
+
+	#section-makeCakeSkin {
+		background-image: url("../icons/makeCakeSkinTop.png");
+		background-repeat: no-repeat;
+		background-position: top;
+		background-size: contain;
+		background-color: #B69DD6;
+	}
+
+	#section-addFilling {
+		background-image: url("../icons/addFillingTop.png");
+		background-repeat: no-repeat;
+		background-position: top;
+		background-size: contain;
+		background-color: #CC6666;
+	}
+
+	#section-styling {
+		background-image: url("../icons/stylingTop.png");
+		background-repeat: no-repeat;
+		background-position: top;
+		background-size: contain;
+		background-color: #B9CEAB;
+	}
+
+	#section-finish {
+		background-image: url("../icons/finishTop.png");
+		background-repeat: no-repeat;
+		background-position: top;
+		background-size: contain;
+		background-color: #333;
+	}
+}
+
+.img-fluid{
+	cursor: pointer;
+}
+
+#styling, #addFilling {
+	width: 80%;
+	height: auto;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+	font-size: 0.5rem;
+}
+
+.navbar-custom .navbar-brand {
+	font-size: 0.8rem;
+}
+/*section {
+	height: 100vh;
+}
+*/
