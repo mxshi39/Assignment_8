@@ -1,4 +1,6 @@
+/* style for over 992px */
 @media only screen and (min-width: 992px) {
+	/* make section same height as viewport*/
 	section {
 		height: 100vh;
 	}
@@ -55,7 +57,7 @@
 	.navbar-custom .navbar-brand {
 		font-size: 0.8rem;
 	}
-
+	/* position of video*/
 	iframe {
 		transform: translate(0, 15%);
 	}
@@ -64,6 +66,7 @@
 
 /* when width is smaller than 992px */
 @media only screen and (max-width: 992px) {
+	/* make section heigh adaptive*/
 	section {
 		height: auto;
 	}
@@ -74,7 +77,6 @@
 	header {
 		position: relative;
 	  	overflow: hidden;
-	  	/*height: 100vh;*/
 		background: -webkit-gradient(linear, left bottom, left top, from(#431B39), to(#F49E40));
 	 	background: linear-gradient(0deg, #431B39 0%, #F49E40 100%);
 		text-align: center;
@@ -129,10 +131,6 @@
 		vertical-align: middle;
 	}
 
-	/*.p-5 {
-		transform: translate(0, 15%);
-	}*/
-
 	#styling, #addFilling {
 		width: 80%;
 		height: auto;
@@ -151,7 +149,7 @@
 	}
 }
 
-/* background color */
+/* background color of each section*/
 body {
 	background-color: #333;
 }
