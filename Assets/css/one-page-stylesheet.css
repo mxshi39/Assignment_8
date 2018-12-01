@@ -10,7 +10,7 @@
 		margin: 20px;
 	}
 
-
+	/* adjust table size*/
 	table tr th, table tr td{
 		width:16.6%;
 		height: auto;
@@ -19,10 +19,12 @@
 		font-size: 2.5vh;
 	 }
 
+	 /* adjust size of images*/
 	 .ingredients {
 	 	width: 90%;
 	 }
 
+	/*  give description box a background color of white*/
 	.description-box {
 		display: inline-block;
 		float: right;
@@ -57,6 +59,12 @@
 	.navbar-custom .navbar-brand {
 		font-size: 0.8rem;
 	}
+
+	/* modify the position of p-5*/
+	.p-5 {
+		transform: translate(0, 10%);
+	}
+
 	/* position of video*/
 	iframe {
 		transform: translate(0, 15%);
