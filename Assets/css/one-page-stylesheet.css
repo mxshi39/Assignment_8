@@ -34,6 +34,10 @@
 		transform: translate(0, 15%);
 	}
 
+	.img-fluid{
+		cursor: pointer;
+	}
+
 	.clearfix::after {
 		content:"";
 		clear:both;

@@ -41,11 +41,11 @@ $(document).ready( function scrollReveal() {
 // on click make filling
 $(document).on("click","#makeFilling",function () {
 	if ($(this).attr("data-state")=="static") {
-		$(this).attr("src","./animation/makeFilling.gif")
+		$(this).attr("src","./Assets/animation/makeFilling.gif")
 		$(this).attr("data-state","dynamic")
 	}
 	else {
-		$(this).attr("src","./animation/makeFilling.png")
+		$(this).attr("src","./Assets/animation/makefilling.png")
 		$(this).attr("data-state","static")
 	}
 });
@@ -53,11 +53,11 @@ $(document).on("click","#makeFilling",function () {
 // on click make wet dough
 $(document).on("click","#makeWetDough",function () {
 	if ($(this).attr("data-state")=="static") {
-		$(this).attr("src","./animation/makeWetDough.gif")
+		$(this).attr("src","./Assets/animation/makeWetDough.gif")
 		$(this).attr("data-state","dynamic")
 	}
 	else {
-		$(this).attr("src","./animation/makeWetDough.png")
+		$(this).attr("src","./Assets/animation/makeWetDough.png")
 		$(this).attr("data-state","static")
 	}
 });
@@ -65,11 +65,11 @@ $(document).on("click","#makeWetDough",function () {
 // on click make dry oil dough
 $(document).on("click","#makeDryOilDough",function () {
 	if ($(this).attr("data-state")=="static") {
-		$(this).attr("src","./animation/makeDryOilDough.gif")
+		$(this).attr("src","./Assets/animation/makeDryOilDough.gif")
 		$(this).attr("data-state","dynamic")
 	}
 	else {
-		$(this).attr("src","./animation/makeDryOilDough.png")
+		$(this).attr("src","./Assets/animation/makeDryOilDough.png")
 		$(this).attr("data-state","static")
 	}
 });
@@ -77,11 +77,11 @@ $(document).on("click","#makeDryOilDough",function () {
 // on click make cake skin
 $(document).on("click","#makeCakeSkin",function () {
 	if ($(this).attr("data-state")=="static") {
-		$(this).attr("src","./animation/makeCakeSkin.gif")
+		$(this).attr("src","./Assets/animation/makeCakeSkin.gif")
 		$(this).attr("data-state","dynamic")
 	}
 	else {
-		$(this).attr("src","./animation/makeCakeSkin.png")
+		$(this).attr("src","./Assets/animation/makeCakeSkin.png")
 		$(this).attr("data-state","static")
 	}
 });
@@ -89,11 +89,11 @@ $(document).on("click","#makeCakeSkin",function () {
 // on click add filling
 $(document).on("click","#addFilling",function () {
 	if ($(this).attr("data-state")=="static") {
-		$(this).attr("src","./animation/addFilling.gif")
+		$(this).attr("src","./Assets/animation/addFilling.gif")
 		$(this).attr("data-state","dynamic")
 	}
 	else {
-		$(this).attr("src","./animation/addFilling.png")
+		$(this).attr("src","./Assets/animation/addFilling.png")
 		$(this).attr("data-state","static")
 	}
 });
@@ -101,11 +101,11 @@ $(document).on("click","#addFilling",function () {
 // on click styling
 $(document).on("click","#styling",function () {
 	if ($(this).attr("data-state")=="static") {
-		$(this).attr("src","./animation/styling.gif")
+		$(this).attr("src","./Assets/animation/styling.gif")
 		$(this).attr("data-state","dynamic")
 	}
 	else {
-		$(this).attr("src","./animation/styling.png")
+		$(this).attr("src","./Assets/animation/styling.png")
 		$(this).attr("data-state","static")
 	}
 });
@@ -113,11 +113,11 @@ $(document).on("click","#styling",function () {
 // on click finish
 $(document).on("click","#finish",function () {
 	if ($(this).attr("data-state")=="static") {
-		$(this).attr("src","./animation/finish.gif")
+		$(this).attr("src","./Assets/animation/finish.gif")
 		$(this).attr("data-state","dynamic")
 	}
 	else {
-		$(this).attr("src","./animation/finish.png")
+		$(this).attr("src","./Assets/animation/finish.png")
 		$(this).attr("data-state","static")
 	}
 });
